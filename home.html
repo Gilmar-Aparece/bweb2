@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Home — BoholWeb | AI-Powered Website Security &amp; Maintenance</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="https://boholwebph.com" class="logo">
+      <img src="images/logo-bohol.png" alt="BoholWeb">
+    </a>
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li class="nav-drop"><a href="#services">Services <span class="caret">▾</span></a>
+        <div class="nav-panel">
+          <a href="#services">Web Design &amp; Development</a>
+          <a href="#services">SEO &amp; Marketing</a>
+          <a href="#services">Malware Scan &amp; Cleanup</a>
+        </div>
+      </li>
+      <li class="nav-drop"><a href="#benefits">Website Maintenance <span class="caret">▾</span></a>
+        <div class="nav-panel">
+          <a href="#services">Features</a>
+          <a href="#benefits">Benefits</a>
+          <a href="#pricing">Find Your Perfect Plan</a>
+        </div>
+      </li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="about-us.html">About Us</a></li>
+      <li><a href="contact-us.html">Contact Us</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="login.html" class="signin desk-only">Sign In</a>
+      <a href="register.html" class="btn btn-blue desk-only">Sign Up</a>
+      <button class="burger" id="burger">☰</button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-drop">
+      <button type="button" class="mobile-drop-toggle">Services <span class="caret">▾</span></button>
+      <div class="mobile-drop-panel">
+        <a href="#services">Web Design &amp; Development</a>
+        <a href="#services">SEO &amp; Marketing</a>
+        <a href="#services">Malware Scan &amp; Cleanup</a>
+      </div>
+    </div>
+    <div class="mobile-drop">
+      <button type="button" class="mobile-drop-toggle">Website Maintenance <span class="caret">▾</span></button>
+      <div class="mobile-drop-panel">
+        <a href="#services">Features</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#pricing">Find Your Perfect Plan</a>
+      </div>
+    </div>
+    <a href="home.html">Home</a>
+    <a href="#">Blog</a>
+    <a href="about-us.html">About Us</a>
+    <a href="contact-us.html">Contact Us</a>
+    <a href="login.html">Sign In</a>
+    <a href="register.html">Sign Up</a>
+  </div>
+</header>
+
+<button class="theme-orb" id="themeOrb" title="Toggle theme" aria-label="Toggle light and dark theme">🌙</button>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <span class="hero-badge">✨ Trusted by 500+ growing businesses</span>
+      <h1>AI-Powered Website Security &amp; Maintenance —<br><span class="accent">Smarter, Faster, Safer</span></h1>
+      <p style="color:#b7c2d4;max-width:480px;margin-top:18px;font-size:15px;">We keep your website fast, secure, and always online — so you can focus on running your business, not babysitting your server.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-teal">Send Enquiry</a>
+        <a href="#pricing" class="btn btn-blue">Plans &amp; Pricing</a>
+      </div>
+    </div>
+    <div class="audit-card">
+      <h3>Get Your Free Website Audit</h3>
+      <div class="sub">Discover your site's strengths &amp; risks</div>
+      <label>Website *</label>
+      <input type="text" placeholder="What is your website URL?">
+      <label>Name *</label>
+      <div class="row2">
+        <input type="text" placeholder="First name">
+        <input type="text" placeholder="Last name">
+      </div>
+      <label>Email *</label>
+      <input type="email" placeholder="Your email address">
+      <div class="cap"><input type="checkbox"> I'm not a robot</div>
+      <button type="button">Submit</button>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="why reveal" id="why">
+  <div class="wrap why-grid">
+    <div class="why-visual">
+      <img src="images/why-choose-us.webp" alt="Why choose BoholWeb">
+    </div>
+    <div>
+      <h2>Why Choose Us?</h2>
+      <p>Want a website that actually brings in customers? At BoholWeb, that's what we do. We help you look professional and get a steady stream of leads by combining great web design with practical SEO, active social media, and strong branding.</p>
+      <p>Whether you're starting from scratch or your current site just isn't working, we handle all the tech stuff for you — because a pretty website doesn't help much if no one can find it.</p>
+      <p>We cut out the jargon and focus on what works: putting your business in front of the right people and helping you grow.</p>
+      <a href="#services" class="btn btn-teal">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services reveal" id="services">
+  <div class="wrap">
+    <span class="eyebrow">Our Professional Services</span>
+    <h2>Empower growth and innovation through our proven professional solutions.</h2>
+    <p class="lead">Our comprehensive end-to-end services are carefully designed to optimize every aspect of your business operations. By staying updated on the latest developments in digital marketing and web technologies, we ensure you're always ahead of the curve.</p>
+    <div class="svc-grid">
+      <div class="svc-card reveal reveal-delay-1">
+        <div class="svc-thumb"><img src="images/service-maintenance.webp" alt="Website Maintenance & Uptime"></div>
+        <div class="svc-body">
+          <h3>Website Maintenance &amp; Uptime</h3>
+          <p>Continuous monitoring, framework patching, database optimization, and real-time backups to guarantee 99.9% uptime and minimize structural risks.</p>
+        </div>
+      </div>
+      <div class="svc-card reveal reveal-delay-2">
+        <div class="svc-thumb"><img src="images/service-seo.webp" alt="Search Engine Optimization"></div>
+        <div class="svc-body">
+          <h3>Search Engine Optimization</h3>
+          <p>Orchestrating on-page technical optimization, semantic keyword mappings, micro-schema styling, and regional localized search growth strategies.</p>
+        </div>
+      </div>
+      <div class="svc-card reveal reveal-delay-3">
+        <div class="svc-thumb"><img src="images/service-development.webp" alt="Full-Stack Web Development"></div>
+        <div class="svc-body">
+          <h3>Full-Stack Web Development</h3>
+          <p>Writing highly scalable, clean, and secure code implementations, built with frameworks like React, Node, and PHP to grow alongside your business.</p>
+        </div>
+      </div>
+    </div>
+    <div class="btn-row">
+      <a href="#contact" class="btn btn-teal">Talk to Us</a>
+      <a href="#services" class="btn btn-blue">View All Our Services</a>
+      <a href="#pricing" class="btn btn-outline">Plans &amp; Pricing</a>
+    </div>
+  </div>
+</section>
+
+<!-- BENEFITS -->
+<section class="benefits reveal" id="benefits">
+  <div class="wrap">
+    <span class="eyebrow">Our Customer Benefits</span>
+    <h2>Here are just a few of the key website maintenance benefits we offer</h2>
+    <p class="lead">Here's what sets our service apart: we combine proven expertise with innovative, forward-thinking strategies to deliver exceptional results. Our end-to-end solutions are designed to streamline operations, enhance efficiency, and boost overall performance.</p>
+    <div class="ben-grid">
+      <div class="ben-card reveal reveal-delay-1"><div class="ben-thumb"><img src="images/benefit-speed.webp" alt="Speed up website"></div><div class="ben-body"><h3>Speed up website</h3><p>Enjoy a high-performance website that delights both you and your users.</p></div></div>
+      <div class="ben-card reveal reveal-delay-2"><div class="ben-thumb"><img src="images/benefit-secured.webp" alt="Secured website"></div><div class="ben-body"><h3>Secured website</h3><p>We safeguard your site with robust security measures.</p></div></div>
+      <div class="ben-card reveal reveal-delay-3"><div class="ben-thumb"><img src="images/benefit-bugfree.webp" alt="Bug-free website"></div><div class="ben-body"><h3>Bug-free website</h3><p>Experience a 100% error-free site that runs smoothly, every time.</p></div></div>
+      <div class="ben-card reveal reveal-delay-4"><div class="ben-thumb"><img src="images/benefit-optimized.webp" alt="Optimized website"></div><div class="ben-body"><h3>Optimized website</h3><p>Experience a high-performance site tailored for speed and delight.</p></div></div>
+      <div class="ben-card reveal reveal-delay-5"><div class="ben-thumb"><img src="images/benefit-traffic.webp" alt="Increased traffic"></div><div class="ben-body"><h3>Increased traffic</h3><p>Achieve higher search traffic with an optimized, fast, and error-free website.</p></div></div>
+      <div class="ben-card reveal reveal-delay-6"><div class="ben-thumb"><img src="images/benefit-backups.webp" alt="Daily backups"></div><div class="ben-body"><h3>Daily backups</h3><p>Enjoy daily, automated backups so your site can be restored instantly.</p></div></div>
+    </div>
+    <div class="btn-row">
+      <a href="#benefits" class="btn btn-teal">View All Benefits</a>
+      <a href="#pricing" class="btn btn-blue">Plans &amp; Pricing</a>
+      <a href="#contact" class="btn btn-outline" style="border-color:rgba(255,255,255,0.2);color:#fff;">Talk to Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS — horizontal scroll -->
+<section class="testi reveal">
+  <div class="testi-head">
+    <h2>WHAT OUR VALUED CLIENTS SAY</h2>
+  </div>
+  <div class="testi-scroll" id="testiScroll">
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p>"They cleaned up our hacked site in hours and got us back online safely. Incredible peace of mind."</p>
+      <div class="testi-name">Sarah T.</div><div class="testi-loc">Austin, TX</div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p>"Our server runs flawlessly now. The monthly maintenance keeps everything fast and secure."</p>
+      <div class="testi-name">Michael R.</div><div class="testi-loc">Chicago, IL</div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p>"Perfect setup between our storefront and accounting software. They know exactly what they're doing."</p>
+      <div class="testi-name">David K.</div><div class="testi-loc">Denver, CO</div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p>"Response time is unreal. Any issue gets fixed same day, sometimes within the hour."</p>
+      <div class="testi-name">Angela P.</div><div class="testi-loc">Seattle, WA</div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p>"Our page speed score jumped from 40 to 95. Traffic and conversions both went up right after."</p>
+      <div class="testi-name">Marco D.</div><div class="testi-loc">Miami, FL</div>
+    </div>
+  </div>
+  <div class="testi-nav">
+    <button id="testiPrev" aria-label="Scroll left">←</button>
+    <button id="testiNext" aria-label="Scroll right">→</button>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing reveal" id="pricing">
+  <div class="wrap">
+    <h2>Website Maintenance Pricing Plans</h2>
+    <p class="lead">Flexible digital marketing and website solutions tailored for startups, growing businesses, and brands.</p>
+    <div class="price-grid">
+      <div class="price-card">
+        <div class="price-tier">Starter</div>
+        <div class="price-value">$0</div>
+        <div class="price-note">Starting price</div>
+        <ul class="price-list">
+          <li>Starting plan for beginners</li>
+          <li>No domain</li>
+          <li>No ticket hours</li>
+          <li>No support hours</li>
+        </ul>
+        <a href="#contact" class="btn btn-blue">Get Started</a>
+      </div>
+      <div class="price-card">
+        <div class="price-tier">Basic Monthly Care</div>
+        <div class="price-value">$118</div>
+        <div class="price-note">Starting price</div>
+        <ul class="price-list">
+          <li>Best for small sites, blogs, or static websites</li>
+          <li>Monthly core &amp; plugin updates</li>
+          <li>Security scan &amp; malware check</li>
+        </ul>
+        <a href="#contact" class="btn btn-blue">Get Started</a>
+      </div>
+      <div class="price-card featured">
+        <span class="price-badge">Most Popular</span>
+        <div class="price-tier">Standard Maintenance</div>
+        <div class="price-value">$238</div>
+        <div class="price-note">Starting price</div>
+        <ul class="price-list">
+          <li>Everything in Basic plan</li>
+          <li>Monthly performance optimization</li>
+          <li>Basic SEO health check &amp; fixes</li>
+          <li>Additional 1 hour task or content updates</li>
+        </ul>
+        <a href="#contact" class="btn btn-teal">Get Started</a>
+      </div>
+      <div class="price-card">
+        <div class="price-tier">Professional Business Plan</div>
+        <div class="price-value">$398</div>
+        <div class="price-note">Starting price</div>
+        <ul class="price-list">
+          <li>Best for growing businesses &amp; medium sites</li>
+          <li>Everything in Standard plan</li>
+          <li>Additional 1 domain</li>
+          <li>Monthly recurring security hardening</li>
+        </ul>
+        <a href="#contact" class="btn btn-blue">Get Started</a>
+      </div>
+      <div class="price-card">
+        <div class="price-tier">E-Commerce Maintenance</div>
+        <div class="price-value">$698</div>
+        <div class="price-note">Starting price</div>
+        <ul class="price-list">
+          <li>Best for online stores &amp; product-based sites</li>
+          <li>Everything in Professional plan</li>
+          <li>Shopping cart &amp; payment gateway testing</li>
+          <li>Daily backups (before/after updates)</li>
+        </ul>
+        <a href="#contact" class="btn btn-blue">Get Started</a>
+      </div>
+      <div class="price-card">
+        <div class="price-tier">Premium Managed Plan</div>
+        <div class="price-value">$898</div>
+        <div class="price-note">Starting price</div>
+        <ul class="price-list">
+          <li>Best for high-traffic sites &amp; active brands</li>
+          <li>Weekly performance &amp; security audit</li>
+          <li>Advanced speed optimization &amp; CDN setup</li>
+          <li>Custom code fixes</li>
+        </ul>
+        <a href="#contact" class="btn btn-blue">Get Started</a>
+      </div>
+      <div class="price-card">
+        <div class="price-tier">Custom Development &amp; Maintenance</div>
+        <div class="price-value">$1,198</div>
+        <div class="price-note">Starting price</div>
+        <ul class="price-list">
+          <li>3 domains, 18 hours tasks, 60 support tickets</li>
+          <li>Everything in Premium Managed plan</li>
+          <li>6 extra hours of custom work monthly</li>
+          <li>Database optimization &amp; cleanup</li>
+        </ul>
+        <a href="#contact" class="btn btn-blue">Get Started</a>
+      </div>
+      <div class="price-card">
+        <div class="price-tier">Enterprise Full Management</div>
+        <div class="price-value">$1,598</div>
+        <div class="price-note">Starting price</div>
+        <ul class="price-list">
+          <li>3 domains, 25 hours tasks, 80 support tickets</li>
+          <li>Everything in Custom Development plan</li>
+          <li>Server/hosting monitoring &amp; management</li>
+          <li>24/7 priority support (response within 1 hour)</li>
+        </ul>
+        <a href="#contact" class="btn btn-blue">Get Started</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT + FOOTER -->
+<footer class="contact reveal" id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div>
+        <h2>Ready to get started?</h2>
+        <p class="lead">Ready to grow your online presence? Contact us today for a free quote on our flexible subscription plans. Our expert team is here to guide you through every step of your digital journey.</p>
+        <div class="contact-btns">
+          <a href="tel:+639171206100" class="btn btn-teal">📞 Call Us Now</a>
+          <a href="#pricing" class="btn btn-blue">View Our Plans</a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h3>Contact Us</h3>
+        <div class="sub">Contact us form</div>
+        <label>Name *</label>
+        <div class="row2">
+          <input type="text" placeholder="First name">
+          <input type="text" placeholder="Last name">
+        </div>
+        <label>Email *</label>
+        <input type="email" placeholder="Email">
+        <label>Phone *</label>
+        <input type="text" placeholder="Phone">
+        <label>Message or Enquiry</label>
+        <textarea placeholder="Your message here"></textarea>
+        <button type="button">Submit</button>
+      </div>
+    </div>
+
+    <div class="footer-grid">
+      <div>
+        <a href="https://boholwebph.com" class="logo"><img src="images/logo-bohol.png" alt="BoholWeb"></a>
+        <p>BoholWeb provides affordable, high-quality website development, optimization, maintenance, and robust security plans. Built a fast, secure web presence today.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Our Services</h4>
+        <a href="#benefits">Website Maintenance</a>
+        <a href="#benefits">Performance Optimization</a>
+        <a href="#benefits">Malware Scan &amp; Cleanup</a>
+        <a href="#services">Web Design</a>
+        <a href="#services">Web Development</a>
+        <a href="#services">SEO &amp; Marketing</a>
+        <a href="#">Content Creation</a>
+      </div>
+      <div class="footer-col">
+        <h4>Menu</h4>
+        <a href="about-us.html">About Us</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="#">Blog</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Disclaimer</a>
+        <a href="#">Refund Policy</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>Copyright © 2026 · boholwebph.com — Website Maintenance and Development</span>
+      <div class="socials">
+        <a href="#">f</a><a href="#">in</a><a href="#">X</a><a href="#">▶</a><a href="#">G</a><a href="#">P</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
