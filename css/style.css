@@ -1559,3 +1559,266 @@ header.site-nav {
     padding: 32px 24px;
   }
 }
+/* ===== PAGE HERO (About Us / inner pages) ===== */
+.page-hero {
+  position: relative;
+  background: linear-gradient(180deg, rgba(10, 15, 28, 0.82), rgba(10, 15, 28, 0.82)), url('../images/why-choose-us.webp');
+  background-size: cover;
+  background-position: center;
+  padding: 110px 32px 90px;
+  text-align: center;
+  color: #fff;
+}
+
+.page-hero h1 {
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 800;
+  letter-spacing: -1px;
+  max-width: 780px;
+  margin: 0 auto 12px;
+}
+
+.page-hero p {
+  color: #cfe9ff;
+  font-size: 15px;
+}
+
+.page-hero-contact {
+  background: linear-gradient(180deg, rgba(10, 15, 28, 0.72), rgba(10, 15, 28, 0.82)),
+    url('../images/contact-phone.webp');
+  background-size: cover;
+  background-position: center 30%;
+}
+
+/* ===== INTRO (streamline processes) ===== */
+.intro-section {
+  padding: 90px 0 40px;
+  text-align: center;
+}
+
+.intro-section h2 {
+  font-size: 30px;
+  letter-spacing: -.5px;
+  margin-bottom: 10px;
+}
+
+.intro-section .lead {
+  color: var(--muted);
+  font-size: 15px;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+/* ===== ABOUT GRID (About Us / Service Offerings columns) ===== */
+.about-grid {
+  padding: 50px 0 100px;
+}
+
+.about-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.about-col-visual {
+  aspect-ratio: 4/3;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+  margin-bottom: 22px;
+}
+
+.about-col-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-col h3 {
+  font-size: 19px;
+  margin-bottom: 12px;
+}
+
+.about-col p {
+  color: var(--muted);
+  font-size: 14.5px;
+  margin-bottom: 14px;
+}
+
+.check-list {
+  list-style: none;
+}
+
+.check-list li {
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 12px;
+  font-size: 14.5px;
+  color: var(--muted);
+}
+
+.check-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 17px;
+  height: 17px;
+  background: var(--green);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* ===== WHY BOX (gray section) ===== */
+.why-box {
+  background: var(--bg-alt);
+  padding: 70px 0;
+}
+
+.why-box h2 {
+  font-size: 26px;
+  margin-bottom: 18px;
+  letter-spacing: -.5px;
+}
+
+.why-box ul {
+  list-style: none;
+  max-width: 800px;
+}
+
+.why-box > .wrap > ul > li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  font-size: 14.5px;
+  color: var(--text);
+}
+
+.why-box > .wrap > ul > li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--teal-dark);
+  font-weight: 700;
+}
+
+.why-box ul ul {
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+.why-box ul ul li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: var(--muted);
+  list-style: none;
+}
+
+.why-box ul ul li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--muted);
+}
+
+/* ===== VISION SECTION ===== */
+.vision-section {
+  padding: 80px 0;
+}
+
+.vision-section h2 {
+  font-size: 26px;
+  margin-bottom: 16px;
+  letter-spacing: -.5px;
+}
+
+.vision-section > .wrap > p {
+  color: var(--muted);
+  font-size: 15px;
+  max-width: 780px;
+  margin-bottom: 22px;
+}
+
+.vision-list {
+  list-style: none;
+  margin-bottom: 26px;
+}
+
+.vision-list li {
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 14px;
+  font-size: 14.5px;
+  color: var(--muted);
+  max-width: 780px;
+}
+
+.vision-list li strong {
+  color: var(--text);
+}
+
+.vision-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 17px;
+  height: 17px;
+  background: var(--teal);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* ===== GET IN TOUCH (Contact Us page) ===== */
+.get-in-touch {
+  padding: 100px 0 80px;
+}
+
+.get-in-touch h2 {
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: -.5px;
+  margin-bottom: 50px;
+}
+
+.touch-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+}
+
+.touch-grid h3 {
+  font-size: 19px;
+  margin-bottom: 16px;
+}
+
+.touch-details p {
+  font-size: 14.5px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.touch-details a {
+  color: var(--teal-dark);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 860px) {
+  .about-cols,
+  .touch-grid {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+}
