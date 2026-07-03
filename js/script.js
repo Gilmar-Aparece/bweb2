@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if (burger && menu) {
     burger.addEventListener('click', function () {
       menu.classList.toggle('open');
+      burger.classList.toggle('open');
     });
   }
 
