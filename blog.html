@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Blogs — BoholWeb</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="home.html" class="logo">
+      <img src="images/logo-bohol.png" alt="BoholWeb">
+    </a>
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li class="nav-drop"><a href="home.html#services">Services <span class="caret">▾</span></a>
+        <div class="nav-panel">
+          <a href="home.html#services">Web Design &amp; Development</a>
+          <a href="home.html#services">SEO &amp; Marketing</a>
+          <a href="home.html#services">Malware Scan &amp; Cleanup</a>
+        </div>
+      </li>
+      <li class="nav-drop"><a href="website-maintenance.html">Website Maintenance <span class="caret">▾</span></a>
+        <div class="nav-panel">
+          <a href="features.html">Features</a>
+          <a href="benefits.html">Benefits</a>
+          <a href="plans.html">Find Your Perfect Plan</a>
+        </div>
+      </li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about-us.html">About Us</a></li>
+      <li><a href="contact-us.html">Contact Us</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="login.html" class="signin desk-only">Sign In</a>
+      <a href="register.html" class="btn btn-blue desk-only">Sign Up</a>
+      <button class="burger" id="burger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-drop">
+      <button type="button" class="mobile-drop-toggle">Services <span class="caret">▾</span></button>
+      <div class="mobile-drop-panel">
+        <a href="home.html#services">Web Design &amp; Development</a>
+        <a href="home.html#services">SEO &amp; Marketing</a>
+        <a href="home.html#services">Malware Scan &amp; Cleanup</a>
+      </div>
+    </div>
+    <div class="mobile-drop">
+      <button type="button" class="mobile-drop-toggle">Website Maintenance <span class="caret">▾</span></button>
+      <div class="mobile-drop-panel">
+        <a href="features.html">Features</a>
+        <a href="benefits.html">Benefits</a>
+        <a href="plans.html">Find Your Perfect Plan</a>
+      </div>
+    </div>
+    <a href="home.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="about-us.html">About Us</a>
+    <a href="contact-us.html">Contact Us</a>
+    <a href="login.html">Sign In</a>
+    <a href="register.html">Sign Up</a>
+  </div>
+</header>
+
+<button class="theme-orb" id="themeOrb" title="Toggle theme" aria-label="Toggle light and dark theme">🌙</button>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <h1>Blogs</h1>
+  <p>Insights, tips and news from our team</p>
+</section>
+
+<!-- SEARCH + FILTERS -->
+<section class="blog-hero reveal">
+  <div class="wrap">
+    <div class="search-bar">
+      <input type="text" id="blogSearch" placeholder="Search articles...">
+      <button type="button" class="btn btn-teal">Search</button>
+    </div>
+    <div class="filter-tags">
+      <button type="button" class="filter-tag active" data-filter="all">All</button>
+      <button type="button" class="filter-tag" data-filter="maintenance">Website Maintenance</button>
+      <button type="button" class="filter-tag" data-filter="speed">Website Speed</button>
+      <button type="button" class="filter-tag" data-filter="malware">Website Cleanup and Malware Removal</button>
+      <button type="button" class="filter-tag" data-filter="doctor">Website Doctor</button>
+      <button type="button" class="filter-tag" data-filter="seo">Search Engine Optimization</button>
+      <button type="button" class="filter-tag" data-filter="design">Web Design</button>
+      <button type="button" class="filter-tag" data-filter="security">Website Security</button>
+      <button type="button" class="filter-tag" data-filter="types">Website Types</button>
+      <button type="button" class="filter-tag" data-filter="developers">Website Developers</button>
+      <button type="button" class="filter-tag" data-filter="designers">Website Designers</button>
+      <button type="button" class="filter-tag" data-filter="business">Websites for Business</button>
+      <button type="button" class="filter-tag" data-filter="digital">Digital World</button>
+      <button type="button" class="filter-tag" data-filter="ai">Artificial Intelligence</button>
+      <button type="button" class="filter-tag" data-filter="removal">Website Malware Removal</button>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG GRID -->
+<section class="blog-grid-section reveal">
+  <div class="wrap">
+    <div class="blog-grid">
+      <div class="blog-card">
+        <div class="blog-thumb photo"><img src="images/benefit-secured.webp" alt="Website Security Tips And Speed"></div>
+        <div class="blog-body">
+          <h3>Website Security Tips And Speed</h3>
+          <div class="blog-meta">Boholweb Tech · Jun 06, 2026</div>
+          <a href="#" class="btn btn-teal">Read more</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-thumb photo"><img src="images/benefit-bugfree.webp" alt="Website Malware Removal"></div>
+        <div class="blog-body">
+          <h3>Website Malware Removal</h3>
+          <div class="blog-meta">Boholweb Tech · Jun 06, 2026</div>
+          <a href="#" class="btn btn-teal">Read more</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-thumb photo"><img src="images/service-maintenance.webp" alt="Website Maintenance Tips"></div>
+        <div class="blog-body">
+          <h3>Website Maintenance Tips</h3>
+          <div class="blog-meta">Boholweb Tech · Jun 06, 2026</div>
+          <a href="#" class="btn btn-teal">Read more</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-thumb photo"><img src="images/benefit-backups.webp" alt="Why Regular Backups Save Your Business"></div>
+        <div class="blog-body">
+          <h3>Why Regular Backups Save Your Business</h3>
+          <div class="blog-meta">Boholweb Tech · Jun 06, 2026</div>
+          <a href="#" class="btn btn-teal">Read more</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-thumb photo"><img src="images/service-seo.webp" alt="SEO Basics Every Business Owner Should Know"></div>
+        <div class="blog-body">
+          <h3>SEO Basics Every Business Owner Should Know</h3>
+          <div class="blog-meta">Boholweb Tech · Jun 06, 2026</div>
+          <a href="#" class="btn btn-teal">Read more</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-thumb photo"><img src="images/why-choose-us.webp" alt="Choosing the Right Website Type for Your Business"></div>
+        <div class="blog-body">
+          <h3>Choosing the Right Website Type for Your Business</h3>
+          <div class="blog-meta">Boholweb Tech · Jun 06, 2026</div>
+          <a href="#" class="btn btn-teal">Read more</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-thumb photo"><img src="images/benefit-speed.webp" alt="Signs Your Website Needs a Doctor"></div>
+        <div class="blog-body">
+          <h3>Signs Your Website Needs a Doctor</h3>
+          <div class="blog-meta">Boholweb Tech · Jun 06, 2026</div>
+          <a href="#" class="btn btn-teal">Read more</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-thumb photo"><img src="images/benefit-traffic.webp" alt="The Digital World: Trends to Watch"></div>
+        <div class="blog-body">
+          <h3>The Digital World: Trends to Watch</h3>
+          <div class="blog-meta">Boholweb Tech · Jun 06, 2026</div>
+          <a href="#" class="btn btn-teal">Read more</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-thumb photo"><img src="images/service-development.webp" alt="Web Design Trends for Growing Brands"></div>
+        <div class="blog-body">
+          <h3>Web Design Trends for Growing Brands</h3>
+          <div class="blog-meta">Boholweb Tech · Jun 06, 2026</div>
+          <a href="#" class="btn btn-teal">Read more</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-thumb"><div class="note-card">How AI Transformed Me as an SEO Staff</div></div>
+        <div class="blog-body">
+          <h3>How AI Transformed Me as an SEO Staff</h3>
+          <div class="blog-meta">Boholweb Tech · Jun 06, 2026</div>
+          <a href="#" class="btn btn-teal">Read more</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-thumb"><div class="note-card">How AI Transformed Me as a Web Designer</div></div>
+        <div class="blog-body">
+          <h3>How AI Transformed Me as a Web Designer</h3>
+          <div class="blog-meta">Boholweb Tech · Jun 06, 2026</div>
+          <a href="#" class="btn btn-teal">Read more</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-thumb"><div class="note-card">How AI Transformed Me as a Web Developer</div></div>
+        <div class="blog-body">
+          <h3>How AI Transformed Me as a Web Developer</h3>
+          <div class="blog-meta">Boholweb Tech · Jun 06, 2026</div>
+          <a href="#" class="btn btn-teal">Read more</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog-pagination">
+      <div class="count">Showing 1–12 of 41 posts</div>
+      <div class="pg-links">
+        <span style="opacity:.4;">← Previous</span>
+        <a href="#" class="pg-active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">Next →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT + FOOTER -->
+<footer class="contact reveal" id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div>
+        <h2>Ready to get started?</h2>
+        <p class="lead">Ready to grow your online presence? Contact us today for a free quote on our flexible subscription plans. Our expert team is here to guide you through every step of your digital journey.</p>
+        <div class="contact-btns">
+          <a href="tel:+639171206100" class="btn btn-teal">📞 Call Us Now</a>
+          <a href="plans.html" class="btn btn-blue">View Our Plans</a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h3>Contact Us</h3>
+        <div class="sub">Contact us form</div>
+        <label>Name *</label>
+        <div class="row2">
+          <input type="text" placeholder="First name">
+          <input type="text" placeholder="Last name">
+        </div>
+        <label>Email *</label>
+        <input type="email" placeholder="Email">
+        <label>Phone *</label>
+        <input type="text" placeholder="Phone">
+        <label>Message or Enquiry</label>
+        <textarea placeholder="Your message here"></textarea>
+        <button type="button">Submit</button>
+      </div>
+    </div>
+
+    <div class="footer-grid">
+      <div>
+        <a href="home.html" class="logo"><img src="images/logo-bohol.png" alt="BoholWeb"></a>
+        <p>BoholWeb provides affordable, high-quality website development, optimization, maintenance, and robust security plans. Built a fast, secure web presence today.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Our Services</h4>
+        <a href="website-maintenance.html">Website Maintenance</a>
+        <a href="benefits.html">Performance Optimization</a>
+        <a href="home.html#services">Malware Scan &amp; Cleanup</a>
+        <a href="home.html#services">Web Design</a>
+        <a href="home.html#services">Web Development</a>
+        <a href="home.html#services">SEO &amp; Marketing</a>
+        <a href="#">Content Creation</a>
+      </div>
+      <div class="footer-col">
+        <h4>Menu</h4>
+        <a href="about-us.html">About Us</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="blog.html">Blog</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Disclaimer</a>
+        <a href="#">Refund Policy</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>Copyright © 2026 · boholwebph.com — Website Maintenance and Development</span>
+      <div class="socials">
+        <a href="#">f</a><a href="#">in</a><a href="#">X</a><a href="#">▶</a><a href="#">G</a><a href="#">P</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script>
+  // Simple tag filter UI toggle (visual state only)
+  document.querySelectorAll('.filter-tag').forEach(function (tag) {
+    tag.addEventListener('click', function () {
+      document.querySelectorAll('.filter-tag').forEach(function (t) { t.classList.remove('active'); });
+      tag.classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>
